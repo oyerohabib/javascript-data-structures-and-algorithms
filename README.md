@@ -1,1 +1,3 @@
-# javascript-data-structures-and-algorithms
+# Javascript Data Structures and Algorithms
+
+## Welcome to the 100 Days of Data Structures and Algorithms Challenge - a journey through the world of efficient problem-solving! Join me as we embark on an adventure of code optimization and logic-building, all while diving deep into the realm of data structures and algorithms. From linked lists to binary trees, from sorting algorithms to dynamic programming - we'll explore it all! Together, we'll conquer 100 days of coding challenges and emerge as stronger, more confident programmers. So, grab your keyboard and let's dive in - the journey to mastery starts now!
