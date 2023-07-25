@@ -52,3 +52,16 @@ function smallestCommons_1(arr) {
 }
 
 console.log(smallestCommons_1([7, 10]));
+
+// solution 3
+function smallestCommons_2(arr) {
+  const [min, max] = arr.sort((a, b) => a - b);
+  const range = Array(max - min + 1)
+    .fill(0)
+    .map((_, i) => i + min);
+  const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));
+  const lcm = (a, b) => (a * b) / gcd(a, b);
+  return range.reduce((multiple, curr) => lcm(multiple, curr));
+}
+
+console.log(smallestCommons_2([7, 10]));
